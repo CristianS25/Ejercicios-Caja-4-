@@ -1,0 +1,101 @@
+/* Ficha:2470980
+Nombre: Cristian Quevedo
+Profesor: Orlando
+Ejercico 2*/
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(66, 66, 66);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+header {
+    background-color: rgb(65, 84, 85);
+    text-align: center;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    margin-top: 20px;
+    color: whitesmoke;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.nav {
+    background-color: rgb(3, 24, 24);
+    list-style: none;
+    text-align: center;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.nav ul li a:hover {
+    background-color: rgba(74, 74, 190, 0.836);
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    background-color: rgb(44, 49, 85);
+    text-align: center;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: whitesmoke;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    flex: 70%;
+}
+
+aside {
+    background-color: rgb(46, 14, 46);
+    text-align: center;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 150px ;
+    padding-bottom: 150px;
+    color: whitesmoke;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    flex: 30%;
+}
+
+footer {
+    background-color: rgb(9, 1, 19);
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+}

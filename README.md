@@ -1,2 +1,2 @@
 # Ejercicios usando el modelo de caja.
-Recuerde, se recomienda ejecutar el código fuente de cada ejercicio en Google.
+Recuerde, se recomienda ejecutar el código de cada ejercicio en Google.
